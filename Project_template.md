@@ -200,3 +200,13 @@
 
 - Для создания индекса и выполнить запрос - python build_index.py --build
 - Просто выполнить запрос - python build_index.py --test
+
+# Задание 4. Реализация RAG-бота с техниками промптинга
+
+- [RAG модуль](./rag.py)
+- [Telegram Bot](./telegram_bot.py) Запуск TELEGRAM_BOT_TOKEN=test python telegram_bot.py
+- ![success1](./task4/success1.png)
+- ![success2](./task4/success2.png)
+- ![success3](./task4/success3.png)
+- ![failed1](./task4/failed1.png)
+- ![failed2](./task4/failed2.png)
