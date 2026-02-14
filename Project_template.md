@@ -165,7 +165,7 @@
 
 Вариант 2 с исключением облачных решений:
 
-1. Embeddings: multilingual-e5-large локально
+1. Embeddings: paraphrase-multilingual-MiniLM-L12-v2 локально, тк нет GPU на используемой рабочей станции
 2. Vector DB: ChromaDB с локальным хранением
 
 # Задание 2. Подготовка базы знаний
@@ -175,3 +175,28 @@
 Итоговая база находятся в директории [knowledge_base](./knowledge_base/)
 Словарь замен [json](./terms_map.json)
 
+# Задание 3. Создание векторного индекса базы знаний
+
+## 1. Выбор эмбеддинг-модели 
+
+- Название - sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+- Ссылка - https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+- Размер эмбеддингов - 384-мерные эмбеддинги
+
+## 2. База знаний 
+
+- Взята из директории [knowledge_base](./knowledge_base/) - 30 файлов с подменами
+
+
+## 3. Кол-во чанков в индексе
+
+- 1775 чанков
+
+## 4. Время генерации
+
+- примерно 20 секунд.
+
+## 5. Использование
+
+- Для создания индекса и выполнить запрос - python build_index.py --build
+- Просто выполнить запрос - python build_index.py --test
