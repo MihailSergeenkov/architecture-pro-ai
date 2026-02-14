@@ -168,3 +168,10 @@
 1. Embeddings: multilingual-e5-large локально
 2. Vector DB: ChromaDB с локальным хранением
 
+# Задание 2. Подготовка базы знаний
+
+Исходные файлы находятся в директории [source_base](./source_base/)
+Скрипт [process_characters.py](./process_characters.py)
+Итоговая база находятся в директории [knowledge_base](./knowledge_base/)
+Словарь замен [json](./terms_map.json)
+
