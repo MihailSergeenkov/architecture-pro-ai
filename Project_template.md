@@ -210,3 +210,19 @@
 - ![success3](./task4/success3.png)
 - ![failed1](./task4/failed1.png)
 - ![failed2](./task4/failed2.png)
+
+# Задание 5. Запуск и демонстрация работы бота
+
+![success1](./task5/success1.png)
+![success2](./task5/success2.png)
+![success3](./task5/success3.png)
+![success4](./task5/success4.png)
+![success5](./task5/success5.png)
+![failed1](./task5/failed1.png)
+![failed2](./task5/failed2.png)
+![failed3](./task5/failed3.png)
+![failed4](./task5/failed4.png)
+![failed5](./task5/failed5.png)
+
+1. Расширил системный промт SECURITY_SYSTEM_PROMPT, добавил инструкции для соблюдения безопасности.
+2. Добавил дополнительную фильтрацию вывода. Если ранее бот мог что-то сказать про root (во всяком случае говорил, что информация найдена, но не выводил), то теперь из-за удаления информации, говорит "Я не знаю".
