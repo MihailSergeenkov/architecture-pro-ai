@@ -1,0 +1,53 @@
+{{Quote|Deviate from your approved flight path, and you will be obliterated. Welcome to the Corellian Industrial Cluster. Welcome to Cymoon 1.|An Imperial traffic controller|<ref name="SW1" />}}
+'''Cymoon 1''' was a [[moon]] located in the [[Corellian Industrial Cluster]]. It housed [[Weapons Factory Alpha]], the largest Imperial weapons factory in [[the galaxy]]. In the weeks after the [[Battle of Yavin]], the [[Alliance to Restore the Republic]] learned that the Empire was to enter negotiations with [[Jabba Desilijic Tiure|Jabba]] the [[Hutt]]. The [[Rebel Alliance Navy|Alliance Fleet]] intercepted Jabba's envoy before sending several of its heroes to [[Assault on Cymoon|assault]] Cymoon 1.
+
+==Characteristics==
+Cymoon 1 was a dirty-[[Color|brown]] [[moon]] of the [[Corellian Industrial Cluster]],<ref name="SW1" /> a remainder of [[Corellia]]'s corporate exploitation of nearby worlds in the [[Expansion Region]].<ref name="BMF 78" /> The moon had an expansive cloud cover, and an orbital debris ring. It featured [[Weapons Factory Alpha]], an [[Galactic Empire|Imperial]] [[weapons factory]] considered the largest in [[the galaxy]], and one of the most heavily-guarded bases in the Empire. The area consisted of extensive [[Cymoon 1 refuse fields|refuse fields]] surrounding a complex of industrial buildings rising towards the rust-colored sky. Automated sentries patrolled the garbage, and a [[Unidentified Cymoon 1 species|native species]] called the trash fields home. Within the factory complex, machines worked non-stop to construct [[TIE/ln space superiority starfighter|TIE fighters]] and other armaments for the Empire. Although [[Overseer]] [[Aggadeen]] claimed the factory was fully automated, it made use of [[Slavery|slave]] labor, and kept prisoners of multiple [[species]] on its lower levels.<ref name="SW1" />
+
+{{Moon-stub}}
+
+==Appearances==
+*[[Star Wars (2015) 1|''Star Wars'' (2015) 1]] {{1st}}
+*[[Star Wars (2015) 2|''Star Wars'' (2015) 2]]
+*[[Star Wars (2015) 3|''Star Wars'' (2015) 3]]
+*[[Darth Vader (2015) 1|''Darth Vader'' (2015) 1]] {{Flash}}
+*[[Star Wars (2015) 4|''Star Wars'' (2015) 4]] {{Mo}}
+*[[Star Wars (2015) 5|''Star Wars'' (2015) 5]] {{Mo}}
+*[[Darth Vader (2015) 6|''Darth Vader'' (2015) 6]] {{Flash}}
+*[[Star Wars (2015) 11|''Star Wars'' (2015) 11]] {{Mo}}
+*[[Star Wars (2015) 26|''Star Wars'' (2015) 26]] {{Mo}}
+*[[Star Wars (2015) 61|''Star Wars'' (2015) 61]] {{Mo}}
+*''[[Star Wars Outlaws]]'' {{Mo}}
+
+===Non-canon appearances===
+*<!-- 2019-12-17 -->''[[Disney Magic Kingdoms]]'' {{Mo}}
+
+==Sources==
+{{ScrollBox|content=
+*<!-- 2014-08-19 -->{{HelmetCollectionCite|1|Databank A-Z}}
+*<!-- 2014-10-28 -->{{HelmetCollectionCite|6|Helmets}}
+*<!-- 2015-01-28 -->{{HelmetCollectionCite|12|Databank A-Z}}
+<!-- 2015-05-06 -->{{SourceContents|issue={{HelmetCollectionCite|19|parent=1}}|contents=
+*<!-- 2015-05-06 -->{{HelmetCollectionCite|19|Helmets}}
+*<!-- 2015-05-06 -->{{HelmetCollectionCite|19|Weapons & Uniforms}}
+}}
+*<!-- 2015-06-09 -->{{InsiderCite|158|Marvel Comics 2015: A Marvel Galaxy}}
+*<!-- 2015-09-23 -->{{HelmetCollectionCite|29|Highlights of the Saga}}
+*<!-- 2016-07-12 -->{{HelmetCollectionCite|78|Weapons & Uniforms}}
+*<!-- 2016-08-18 -->''[[Forged in Battle]]''
+*<!-- 2017-02-28 -->''[[Darth Vader: Sith Lord]]''
+*<!-- 2017-04-04 -->''[[Star Wars: The Visual Encyclopedia]]''
+*<!-- 2017-06-27 -->{{HelmetCollectionCite|72|Highlights of the Saga}}
+*<!-- 2017-11-21 -->''[[Star Wars: The Rebel Files]]''
+*<!-- 2019-10-04 -->''[[Ultimate Star Wars, New Edition]]''
+*<!-- 2020-08-05 -->{{EncyclopediaCite|Darth Vader}}
+*<!-- 2020-10-01 -->''[[The Star Wars Book]]''
+*<!-- 2021-01-22 -->{{EncyclopediaCite|C-3PO}}
+*<!-- 2021-11-02 -->''[[Star Wars: Battles that Changed the Galaxy]]''
+*<!-- 2021-11-30 -->{{EncyclopediaCite|Princess Leia Organa}}
+*<!-- 2022-06-08 -->{{EncyclopediaCite|Core Worlds, Colonies, the Inner Rim and Expansion Region}}
+*<!-- 2023-04-25 -->''[[Star Wars: Timelines]]''
+*<!-- 2024-07-09 -->''[[Star Wars: The Rise and Fall of the Galactic Empire]]''
+*<!-- 2024-11-19 -->''[[Star Wars Encyclopedia: The Comprehensive Guide to the Star Wars Galaxy]]''
+*{{Databank|luke-skywalker|Luke Skywalker}}
+}}

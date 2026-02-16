@@ -1,0 +1,76 @@
+@startuml Architecture
+!theme plain
+skinparam componentStyle uml2
+
+package "Автоматический перекладчик \nновых докуентов (добавляет .txt)" as Importer
+
+folder "Файловая система" {
+    folder "docs/" as DocsFolder {
+        [document_1.txt]
+        [document_2.txt]
+        [document_N.txt]
+    }
+    
+    folder "Логи" as LogsFolder {
+        [index_update.log]
+    }
+    
+    database "chroma.db" as ChromaDB {
+        [Векторный индекс]
+    }
+    
+    file "indexed_files.json" as IndexedFiles
+}
+
+cloud "Cron (crontab)" as CronCloud {
+    [0 0 * * * python update_index.py]
+}
+
+package "update_index.py" as ScriptPackage {
+    [Загрузка файлов]
+    [Сравнение mtime]
+    [Разбиение на чанки]
+    [Генерация эмбеддингов]
+    [Обновление индекса]
+}
+
+Importer --> DocsFolder : "Добавляет/изменяет\nдокументы"
+
+DocsFolder --> ScriptPackage : "Новые/изменённые\n.txt файлы"
+
+ScriptPackage -> IndexedFiles : "Сравнивает mtime\nс indexed_files.json"
+
+' ScriptPackage : "logs to stdout"
+ScriptPackage -> LogsFolder : ">> index_update.log"
+
+ScriptPackage --> [Загрузка файлов]
+ScriptPackage --> [Сравнение mtime]
+ScriptPackage --> [Разбиение на чанки]
+ScriptPackage --> [Генерация эмбеддингов]
+ScriptPackage --> [Обновление индекса]
+
+[Разбиение на чанки] --> [Чанки] : "500 символов\noverlap: 100"
+
+[Генерация эмбеддингов] --> [Эмбеддинги] : "paraphrase-multilingual\nMiniLM-L12-v2"
+
+[Обновление индекса] --> ChromaDB : "add_documents()\ndelete()"
+
+[Эмбеддинги] --> ChromaDB : "Вектора"
+
+note right of CronCloud
+  Запуск: раз в сутки в 00:00
+  crontab -e
+end note
+
+note right of LogsFolder
+  stdout/stderr
+  записываются в лог-файл
+end note
+
+note right of IndexedFiles
+  Хранит:
+  - путь к файлу
+  - mtime (время изменения)
+end note
+
+@enduml

@@ -1,0 +1,32 @@
+{{Quote|Yellow Squadron? Yellow Squadron, report!|Rebels, at Vrogas Vas|<ref name="Vader Down 1" />}}
+'''Yellow Squadron''', also referred to as '''Yellow Group''', was a [[Alliance to Restore the Republic|Rebel Alliance]] [[starfighter]] [[squadron]] stationed over the [[planet]] [[Vrogas Vas]] during the [[Galactic Civil War]].
+
+==History==
+===Jake Farrell===
+After quitting as a [[flight instructor]] of the [[Galactic Empire]], the [[human]] [[Jake Farrell]] retired to [[Derango 4]] but joined the [[Alliance to Restore the Republic|Rebellion]] shortly afterward, serving its Yellow Squadron under the [[callsign]] "[[Yellow Seven]]" with a modified [[R-22 Spearhead]] [[starfighter]]. By the [[time]] of the [[Battle of Endor]] in [[4 ABY]], Farrell served in the rebel [[Gold Squadron]] flying an [[RZ-1 A-wing interceptor]].<ref name="Encyclopedia">{{EncyclopediaCite|Pilots of the Rebel Alliance}}</ref>
+
+===Battle of Vrogas Vas===
+{{Quote|Is anyone left from Yellow? I can't see&hellip;''"<br />"''This&hellip;This can't be happening. How is he doing this? It's just one man!|Rebels shocked after Vader destroyed Yellow Squadron|<ref name="Vader Down 1" />}}
+[[File:DogfightVrogasVas-VaderDown1.jpg|thumb|right|250px|Yellow Squadron in combat with Darth Vader]]
+In [[0 ABY]],<ref name="Date" /> Yellow Squadron, along with [[Blue Squadron (Rebel Alliance)|Blue Squadron]] and [[Red Squadron (Rebel Alliance)|Red Squadron]], were drilling over Vrogas Vas, when an Imperial scout ship dropped out of [[hyperspace]] right in front of them. With three squadrons of [[X-wing starfighter|X-wings]] versus one TIE, the odds seemed to be in the Rebel Alliance's favor. Drills now cancelled, the pilots of Blue Squadron took the lead and started their attack on the lonely ship, commencing the [[Battle of Vrogas Vas]]. Not realizing that it was [[Anakin Skywalker|Darth Vader]] in a [[TIE Advanced x1]] with [[deflector shield]]s and [[torpedo]]es, the entire squadron was destroyed without so much as a scratch to Vader's own ship. Shocked at the loss of Blue Squadron, Yellow Squadron decided to coordinate fire using torpedoes. All locked and fired, the torpedoes veered off course, then Vader destroyed Yellow Squadron. [[Luke Skywalker]], who was flying as [[Red Five]] with the only remaining pilots of Red Squadron, sensed it was Vader. Not convinced another coordinated attack would work, flew his own [[Red Five (T-65B X-wing starfighter)|X-wing]] into Vader's TIE and both crashed onto the planet below. Both pilots survived the crash and the battle continued on the planet below, with further losses to [[Gray Squadron (Rebel Alliance)|Gray Squadron]],<ref name="Vader Down 1" /> [[Amber Wing]],<ref name="DV14">[[Darth Vader (2015) 14|''Darth Vader'' (2015) 14]]</ref> and [[Cyan Squadron]].<ref name="Vader Down 2">[[Darth Vader (2015) 13|''Darth Vader'' (2015) 13]]</ref>
+
+===Battle of Endor===
+{{Quote|&hellip;Lost Gemma, lost Snar, lost Reet, half of Yellow Group&hellip;|A Rebel pilot lists casualties following the Battle of Endor|<ref name="Shattered Empire 1" />}}
+In [[4 ABY]],<ref name="Galactic Atlas">''[[Star Wars: Galactic Atlas]]''</ref> Yellow Group participated in the [[Battle of Endor]].<ref name="Shattered Empire 1" /> When [[Red Squadron (Rebel Alliance)|Red Group]] and [[Gold Squadron (Rebel Alliance)|Gold Group]] made the run for [[DS-2 Death Star II Mobile Battle Station|Death Star II's]] reactor, [[Captain]] [[Ribeiro]] and her second-in-command [[Lieutenant]] [[Malena]], formed a protective screen over the entrance of the superstructure to prevent further [[TIE series|TIEs]] from pursuing those inside.<ref name="Battles that Changed the Galaxy" /> Near the end of the battle, Yellow Group, alongside [[Green Squadron (Rebel Alliance)|Green Group]], received orders from ''[[Home One]]'' to intercept Imperial ships evacuating the [[DS-2 Death Star II Mobile Battle Station|second Death Star]]. Yellow Group lost half of their pilots in the battle.<ref name="Shattered Empire 1" />
+
+==Behind the scenes==
+The [[2017]] activity book ''[[Star Wars: A-wing Deluxe Book and 3D Wood Model]]'' states that Jake Farrell joined "the rebel group Yellow Seven,"<ref name="Incredibuilds">''[[Star Wars: A-wing Deluxe Book and 3D Wood Model]]''</ref> but the [[2022]] booklet "[[Pilots of the Rebel Alliance]]" confirms that Farrell actually joined Yellow Squadron under the callsign "Yellow Seven."<ref name="Encyclopedia" />
+
+==Appearances==
+*[[Vader Down 1|''Vader Down'' 1]] {{1st}}
+*[[Darth Vader (2015) 13|''Darth Vader'' (2015) 13]] {{C|Indirectly mentioned only; in the opening crawl}}
+*[[Star Wars (2015) 13|''Star Wars'' (2015) 13]] {{C|Indirectly mentioned only; in the opening crawl}}
+*[[Darth Vader (2015) 14|''Darth Vader'' (2015) 14]] {{C|Indirectly mentioned only; in the opening crawl}}
+*{{StoryCite|story=The Extra Five Percent|book=From a Certain Point of View: Return of the Jedi|audiobook=1}}
+*[[Shattered Empire 1|''Shattered Empire'' 1]] {{1stm}}
+
+==Sources==
+*<!-- 2017-11-21 -->''[[Star Wars: The Rebel Files]]''
+*<!-- 2017-11-28 -->''[[Star Wars: A-wing Deluxe Book and 3D Wood Model]]'' {{Imo}}
+*<!-- 2021-11-02 -->''[[Star Wars: Battles that Changed the Galaxy]]''
+*<!-- 2022-03-04 -->{{EncyclopediaCite|Pilots of the Rebel Alliance}}

@@ -1,0 +1,14 @@
+'''Skaradosh''' was a [[desert]] [[planet]]<ref name="Leia 4" /> located in the [[Skaradosh system]] in the [[Inner Rim Territories]].<ref name="Appendix" /> During the [[Galactic Civil War]], between the [[Galactic Empire]] and the [[Alliance to Restore the Republic]], Skaradosh served as neutral-ground for a [[prisoner]] transfer during [[Princess]] [[Leia Skywalker Organa Solo|Leia Organa's]] [[Mission to rescue the survivors of Alderaan|rescue mission]].<ref name="Leia 5">[[Princess Leia 5|''Princess Leia'' 5]]</ref>
+
+{{Planet-stub}}
+
+==Appearances==
+{{Mediacat|imagecat=Images of Skaradosh}}
+*[[Princess Leia 4|''Princess Leia'' 4]] {{1st}}
+*[[Princess Leia 5|''Princess Leia'' 5]]
+
+==Sources==
+*<!-- 2015-06-25 -->{{SW|url=news/rescue-missions-go-awry-in-princess-leia-5|text=Rescue Missions Go Awry in ''Princess Leia'' #5}}
+*<!-- 2022-05-27 -->{{GalaxyMapPoster}} {{MapPoint}}
+*{{StarWarsGalaxyMap}} {{MapPoint}}
+*{{Databank|nien-nunb|Nien Nunb}}
