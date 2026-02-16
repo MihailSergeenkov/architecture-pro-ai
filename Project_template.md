@@ -252,3 +252,12 @@
 ```
 index updated at 2026-02-15, 1 files added, 1 new chunks, index size: 1780, 0 errors
 ```
+
+# Задание 7. Аналитика покрытия и качества базы знаний
+
+- Лог: [request_logs.csv](./request_logs.csv)
+- Набор вопросов и ответов: [golden_questions.json](./golden_questions.json)
+- Скрипт тестирования модели: [test_model.py](./test_model.py)
+- Диаграмма последовательностей: [sequence_diagram.puml](./sequence_diagram.puml)
+
+Результат выполнения скрипта показал практически полное покрытие (соответствие ожидаемым ответам) - 95.4%.

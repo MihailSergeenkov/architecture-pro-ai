@@ -1,0 +1,133 @@
+@startuml RAG Request Processing Sequence
+!theme plain
+skinparam maxMessageSize 200
+
+title Диаграмма последовательности: Обработка RAG-запроса
+
+actor "Пользователь" as User
+participant "test_model.py\n(Тестирование)" as Test
+participant "RAGPipeline" as RAG
+participant "Vector Store\n(Chroma)" as VectorStore
+participant "LLM\n(Llama 3.2)" as LLM
+participant "CSV Logger" as Logger
+
+== Обработка запроса ==
+
+User -> Test: Запуск теста
+Test -> Test: Загрузка golden_questions.json
+
+loop Для каждого вопроса
+    Test -> RAG: answer(question)
+    
+    == Этап 1: Retrieval ==
+    
+    RAG -> VectorStore: similarity_search_with_score(query, k=TOP_K)
+    
+    alt Пустой индекс / Ошибка подключения
+        VectorStore -->> RAG: Exception
+        RAG -> RAG: Возврат "Я не знаю"
+        RAG -> Test: Ответ об ошибке
+    else Нет результатов
+        VectorStore -->> RAG: empty list
+        RAG -> RAG: chunks = []
+    else Успешный поиск
+        VectorStore -->> RAG: docs_with_scores
+    
+        loop Фильтрация чанков
+            RAG -> RAG: _filter_chunk(chunk)
+            
+            alt Обнаружены вредоносные инструкции
+                RAG -> RAG: return None
+            else Обнаружены чувствительные данные
+                RAG -> RAG: return None
+            end
+        end
+        
+        RAG -> RAG: Фильтрованные чанки
+    end
+    
+    alt Нет валидных чанков
+        RAG -> RAG: "Итог: Я не знаю"
+    else Есть чанки
+    
+        == Этап 2: Prompt Building ==
+        
+        RAG -> RAG: _few_shot_examples()
+        RAG -> RAG: build_prompt(query, chunks)
+        
+        == Этап 3: Generation ==
+        
+        RAG -> LLM: generate_answer(prompt)
+        
+        alt Ошибка генерации LLM
+            LLM -->> RAG: Exception
+            RAG -> RAG: fallback ответ
+        else Успешная генерация
+            LLM -->> RAG: raw_response
+            RAG -> RAG: _sanitize_response(text)
+            RAG -> RAG: Очищенный ответ
+        end
+    end
+    
+    == Этап 4: Логирование ==
+    
+    RAG -> Logger: _log_request(query, chunks, answer)
+    Logger -> Logger: Запись в CSV файл
+    
+    RAG -->> Test: final_answer
+
+    == Этап 5: Оценка ==
+    
+    Test -> Test: evaluate_response(expected, actual)
+    
+    alt Ожидаемый ответ "Я не знаю"
+        alt Фактический ответ содержит "я не знаю"
+            Test -> Test: found = True, completeness = 1.0
+        else
+            Test -> Test: found = False, completeness = 0.0
+        end
+    else Ожидаемый ответ есть
+        alt Ключевые слова найдены
+            Test -> Test: found = True
+            Test -> Test: completeness = совпадение слов / всего слов
+        else
+            Test -> Test: found = False, completeness = 0.0
+        end
+    end
+    
+    Test -> Test: Вывод результата в stdout
+    Test -> User: Статистика тестирования
+
+end
+
+== Возможные точки сбоя ==
+
+note right of VectorStore
+  <&warning> Точки сбоя:
+  1. Пустой индекс (нет документов)
+  2. Ошибка подключения к БД
+  3. Низкое качество embeddings
+end note
+
+note right of RAG
+  <&warning> Точки сбоя:
+  1. Все чанки отфильтрованы
+  2. _filter_chunk вернул None
+  3. Невалидный формат чанка
+end note
+
+note right of LLM
+  <&warning> Точки сбоя:
+  1. Модель не загружена
+  2. Out of memory
+  3. Timeout генерации
+  4. Некорректный формат ответа
+end note
+
+note right of Test
+  <&warning> Точки сбоя:
+  1. Несовпадение формата
+  2. Partial match (частичный ответ)
+end note
+
+@enduml
